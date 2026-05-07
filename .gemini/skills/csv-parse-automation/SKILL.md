@@ -14,3 +14,4 @@ description:
 2. **변환 (Transform)**: 추출된 테이블 데이터를 깔끔하고 정확한 CSV(Comma-Separated Values) 형식으로 변환한다.
 3. **병합 (Merge)**: 모든 CSV 파일의 추출이 완료된 후, 아래 명령어를 실행하여 개별 CSV 파일을 하나로 병합한다. 이 과정은 관리자가 직접 스크립트를 실행해야 하며, 명령어를 다음과 같이 추천하고 종료한다.
     - python scripts/merge-csv.py {학과이름}
+    - python scripts/validate-course.py {학과이름}
