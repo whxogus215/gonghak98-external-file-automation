@@ -43,7 +43,7 @@ def main():
 
     master_csv_path = os.path.join(script_dir, 'csv', 'all_course_v1.csv')
     dept_csv_dir = os.path.join(
-        base_dir, '.gemini/skills/csv-parse-automation/target', department_name, 'csv'
+        base_dir, '.agents/skills/csv-parse-automation/target', department_name, 'csv'
     )
     dept_csv_path = os.path.join(dept_csv_dir, f'{department_name}.csv')
 

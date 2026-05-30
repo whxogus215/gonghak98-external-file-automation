@@ -14,7 +14,7 @@ department_name = sys.argv[1]
 # 경로 설정: 스크립트 파일 위치를 기준으로 target 디렉토리 찾기
 script_dir = os.path.dirname(os.path.abspath(__file__))
 base_dir = os.path.dirname(script_dir)
-csv_dir = os.path.join(base_dir, '.gemini/skills/csv-parse-automation/target', department_name, 'csv')
+csv_dir = os.path.join(base_dir, '.agents/skills/csv-parse-automation/target', department_name, 'csv')
 
 if not os.path.isdir(csv_dir):
     print(f"Error: Directory not found: {csv_dir}")
